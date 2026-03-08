@@ -1,18 +1,23 @@
 # AlgoGreen: Decentralized Carbon Credit Tracker
 
 ## Project Overview
-This project uses the Algorand blockchain to create a transparent, immutable ledger for carbon credits. It allows environmental organizations to mint "Carbon Tokens" and track their transfer between companies.
+AlgoGreen is a blockchain-based solution designed to provide a transparent and immutable ledger for tracking carbon credits. By leveraging the Algorand blockchain, we ensure that environmental claims are verifiable and double-counting is eliminated.
+
+## Objective
+* **Transparency:** Create a public record of all minted carbon credits.
+* **Security:** Use Algorand's Layer-1 smart contracts for secure asset transfers.
+* **Efficiency:** Benefit from Algorand's low transaction costs and carbon-neutral footprint.
 
 ## Tech Stack
-- **Blockchain:** Algorand (Testnet)
-- **Language:** Python (PyTeal)
-- **Tools:** AlgoKit, MyAlgo Wallet
+* **Blockchain:** Algorand (Testnet).
+* **Smart Contracts:** Python (PyTeal).
+* **Development Environment:** AlgoKit.
 
-## Project Structure
-- `/contracts`: Smart contracts for token minting.
-- `/scripts`: Deployment and interaction scripts.
-- `/docs`: Project documentation and flowcharts.
+## Repository Structure
+* `/contracts`: Contains the smart contract logic for credit minting.
+* `/scripts`: Scripts for deployment and testing.
+* `README.md`: Project documentation.
 
-## How to Run
-1. Install Algokit: `pip install algokit`
-2. Initialize localnet: `algokit localnet start`
+## Getting Started
+1. Clone this repository: `git clone https://github.com/novicecode050/algo-green-tracker.git`
+2. Install dependencies: `pip install pyteal`
